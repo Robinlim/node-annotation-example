@@ -1,0 +1,6 @@
+[submodule "node_modules/node-annotation-extend"]
+	path = node_modules/node-annotation-extend
+	url = git@gitlab.corp.qunar.com:xin.lin/node-annotation-extend.git
+[submodule "node_modules/node-annotation"]
+	path = node_modules/node-annotation
+	url = git@gitlab.corp.qunar.com:xin.lin/node-annotation.git
