@@ -1,0 +1,19 @@
+对比express & anno
+
+#100个路由规则
+
+		|	MEM		|	start	|
+express	| 	0.7%	|	16ms	|
+anno	|	1.0%	|	74ms	|
+
+#1000个路由规则
+
+		|	MEM		|	start	|
+express	| 	0.7%	|	22ms	|
+anno	|	1.0%	|	146ms	|
+
+
+#10000个路由规则
+		|	MEM		|	start	|
+express	| 	1.8%	|	16ms	|
+anno	|	---		|	---		|  Maximum call stack size exceeded

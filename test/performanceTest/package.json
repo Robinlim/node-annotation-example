@@ -1,0 +1,38 @@
+{
+  "name": "node-annotation",
+  "version": "0.0.1",
+  "description": "write application by annotation",
+  "license": "MIT",
+  "main": "bin/node-annotation",
+  "keywords": [
+    "annotation",
+    "spring",
+    "aop",
+    "DI"
+  ],
+  "author": {
+    "name": "robin",
+    "email": "robinlim9@aliyun.com"
+  },
+  "engines": [
+    "node"
+  ],
+  "dependencies": {
+    "express": "^4.13.4",
+    "fibers": "1.0.8",
+    "lodash": "~3.10.1",
+    "mock-fs": "^3.8.0",
+    "promise": "7.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.13.4",
+    "fs-mock": "^1.2.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-template": "^0.2.3",
+    "load-grunt-tasks": "^3.4.1",
+    "mock-fs": "^3.8.0",
+    "sinon": "^1.17.3"
+  }
+}

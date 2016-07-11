@@ -1,0 +1,18 @@
+{
+    "monitor": {
+        "server": "l-node1.des.dev.cn0.qunar.com",
+        "port": "8125",
+        "prefix": "nodeExample.",
+        "interval": 1000
+    },
+    "appenders": [{
+        "type": "console"
+    }, {
+        "type": "dateFile",
+        "filename": "access.log",
+        "maxLogSize": 20480,
+        "pattern": "-yyyy-MM-dd",
+        "alwaysIncludePattern": true,
+        "category": "http-log"
+    }]
+}
