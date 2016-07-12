@@ -1,3 +1,11 @@
+/**
+* @Author: robin
+* @Date:   2016-07-08 16:48:41
+* @Email:  robinlim9@aliyun.com
+* @Last modified by:   robin
+* @Last modified time: 2016-07-12 11:25:52
+*/
+
 var path = require('path');
 var expect = require('chai').expect;
 var nodeAnnotation = require('node-annotation');
@@ -36,13 +44,15 @@ describe('AOP', function() {
                     +"Poet say: around before2\n"
                     +"Poet say: around before\n"
                     +"knight hitting!!\n"
+                    +"knight sync die!\n"
+                    +"Poet say: knight die error!!\n"
                     +"result\n"
                     +"Poet say: around leave\n"
                     +"result\n"
                     +"Poet say: around leave2\n"
                     +"Poet say: knight hitted!!\n"
                     +"knight ready to flight, wait for 1000 ms\n"
-                    +"knight die!\n"
+                    +"knight async die!\n"
                     +"Poet say: knight die error!!\n"
                     +"Poet say: knight will flight!!\n"
                     +"knight flight\n";
