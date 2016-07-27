@@ -1,11 +1,15 @@
 {
   "name": "node-annotation-example",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "node-annotation example",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Robinlim/node-annotation-example.git"
+  },
+  "peerDependencies":{
+    "node-annotation": "^0.0.*",
+    "node-annotation-extend": "^0.0.*"
   },
   "dependencies": {
     "chai": "^3.5.0",
@@ -13,11 +17,11 @@
     "jade": ">= 0.0.1",
     "lodash": "~2.4.1",
     "mysql": "2.6.2",
-    "node-annotation": "0.0.1",
-    "node-annotation-extend": "0.0.2",
     "node-fetch": "^1.5.3",
     "promise": "7.0.0",
-    "serve-favicon": "^2.3.0"
+    "serve-favicon": "^2.3.0",
+    "node-annotation": "^0.0.*",
+    "node-annotation-extend": "^0.0.*"
   },
   "scripts": {
     "test": "mocha -t 8000"
